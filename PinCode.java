@@ -1,4 +1,4 @@
-        import java.util.regex.Pattern;
+import java.util.regex.Pattern;
 	import java.util.regex.Matcher;
 
 public class PinCode {
@@ -23,5 +23,8 @@ public class PinCode {
 	      
 	      String Pincode2="A400708";
 	      System.out.println( Pincode2 +":" +isValid(Pincode2));
+	      
+	      String Pincode3="400708B";
+	      System.out.println( Pincode3 +":" +isValid(Pincode3));
 	   }
 }
